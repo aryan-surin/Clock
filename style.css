@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.centerize {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  border-radius: 0 10%;
+}
+
+.outer-radius {
+  background-color: black;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 20px solid wheat;
+  position: relative;
+}
+
+/* .inner-radius {
+  background-color: black;
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  position: relative;
+} */
+
+.hand {
+  background-color: white;
+  border-radius: 80%;
+  left: 50%;
+  transform: translate(-50%, 0%) rotate(0deg);
+  transform-origin: bottom;
+}
+
+.long-hand {
+  width: 6px;
+  height: 180px;
+  position: absolute;
+  top: 0%;
+  transform: translate(-50%, 0%) rotate(0deg);
+  transform-origin: bottom;
+}
+
+.short-hand {
+  width: 6px;
+  height: 120px;
+  position: absolute;
+  top: 17%;
+  transform: translate(-50%, 0%) rotate(0deg);
+  transform-origin: bottom;
+}
+
+.sec-hand {
+  width: 2px;
+  height: 160px;
+  position: absolute;
+  top: 6%;
+  /* transform: translate(-50%, 0%) rotate(0deg); */
+  transform-origin: bottom;
+  /* transition: all  ; */
+}
