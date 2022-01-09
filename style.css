@@ -67,3 +67,34 @@
   top: 6%;
   transform-origin: bottom;
 }
+
+.time {
+  font-family: "Courier New", Courier, monospace;
+  width: 400px;
+  height: 400px;
+  font-size: 40px;
+  font-weight: 500;
+  color: gold;
+  position: relative;
+}
+
+.twelve {
+  position: absolute;
+  top: -10%;
+  left: 44%;
+}
+.six {
+  position: absolute;
+  top: 100%;
+  left: 46%;
+}
+.three {
+  position: absolute;
+  top: 45%;
+  left: 101%;
+}
+.nine {
+  position: absolute;
+  top: 43%;
+  left: -7%;
+}

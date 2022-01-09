@@ -3,6 +3,7 @@
 const longHand = document.querySelector(".long-hand");
 const shortHand = document.querySelector(".short-hand");
 const secondHand = document.querySelector(".sec-hand");
+const audion = document.querySelector("audio");
 
 const secondHandFun = function () {
   setInterval(() => {
@@ -31,6 +32,8 @@ const secondHandFun = function () {
     secondHand.style.transform = `translate(-50%, 0%) rotate(${
       (sec / 60) * 360
     }deg)`;
+    audion.currentTime = 0;
+    audion.play();
   }, 1000);
 };
-secondHandFun();
+// secondHandFun();
