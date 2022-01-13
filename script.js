@@ -36,4 +36,5 @@ const secondHandFun = function () {
     audion.play();
   }, 1000);
 };
-// secondHandFun();
+secondHandFun();
+
